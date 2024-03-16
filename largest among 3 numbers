@@ -1,0 +1,20 @@
+def find_largest(num1, num2, num3):
+    # Assume the first number is the largest
+    largest = num1
+    
+    # Compare with the second number
+    if num2 > largest:
+        largest = num2
+    
+    # Compare with the third number
+    if num3 > largest:
+        largest = num3
+    
+    return largest
+
+# Example usage:
+num1 = 10
+num2 = 25
+num3 = 15
+largest = find_largest(num1, num2, num3)
+print("The largest number is:", largest)
